@@ -1,0 +1,7 @@
+__pycache__
+.env
+config/keywords.txt
+config/offset.json
+config/appData.txt
+output/
+venv/

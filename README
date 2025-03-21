@@ -1,0 +1,4 @@
+🔴 What Won’t Work
+* A bot cannot read messages from a channel where it is not an admin.
+Bots cannot bypass Telegram API restrictions.Bots cannot bypass Telegram API restrictions.
+* A bot cannot join private channels unless invited.
