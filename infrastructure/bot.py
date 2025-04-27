@@ -39,7 +39,11 @@ def add_keyword(message):
         save_keywords(keywords)
         bot.reply_to(message, f"Keyword '{keyword}' added.")
 
+@bot.message_handler(commands=['start'])
+def send_welcome(message):
+    bot.reply_to(message, "Bot is alive!")
+
 def start_bot():
     """Start bot polling."""
     logger.info("Starting the bot...")
-    bot.polling(none_stop=True)
+    bot.polling(none_stop=True, timeout=20)

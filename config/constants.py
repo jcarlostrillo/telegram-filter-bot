@@ -13,7 +13,7 @@ PHONE_NUMBER = os.getenv("PHONE_NUMBER")
 SOURCE_CHANNEL_IDS = list(map(int, os.getenv("SOURCE_CHANNEL_IDS").split(',')))
 DESTINATION_CHANNEL_ID = -4644186100
 
-OUTPUT_FOLDER = 'output'
+OUTPUT_FOLDER = '/shared/telegram-filter-bot/output'
 LOG_FOLDER = os.path.join(OUTPUT_FOLDER, 'log')
 SESSION_FILE = os.path.join(OUTPUT_FOLDER, 'telegram_user.session')
 
